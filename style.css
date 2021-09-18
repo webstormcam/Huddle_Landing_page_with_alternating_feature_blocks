@@ -22,7 +22,7 @@ body{
     background-image: url('imgs/bg-hero-mobile.svg');
    background-repeat: no-repeat;
    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(25, 173, 218, 0.089);
+    box-shadow: inset 0 0 0 1000px rgba(25, 173, 218, 0.158);
     
    
     
@@ -85,5 +85,28 @@ header{
     padding-right: 2.2rem;
     line-height: 1.5rem;
     max-width: 429px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+.free_pink{
+    background-color: #FF52C1;
+    color: #FFF;
+    text-decoration: none;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 17rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.mockup{
+    width: 85%;
+    max-width: 620px;
 }
