@@ -9,6 +9,17 @@ body{
     align-items: center;
 }
 
+#colored_background{
+    background-image: url('imgs/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     box-shadow: inset 0 0 0 1000px rgba(25, 173, 218, 0.233);
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
 #content{
     display: flex;
     flex-direction: column;
@@ -19,10 +30,7 @@ body{
 #top{
     display: flex;
     flex-direction: column; 
-    background-image: url('imgs/bg-hero-mobile.svg');
-   background-repeat: no-repeat;
-   background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(25, 173, 218, 0.233);
+    min-height: 100vh;
     
    
     
@@ -121,13 +129,7 @@ header{
 
 
 @media  screen and (min-width: 1024px) {
-body{
-    background-image: url('imgs/bg-hero-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-     box-shadow: inset 0 0 0 1000px rgba(25, 173, 218, 0.233);
-}
+
 
     #content{
         display: flex;
@@ -148,11 +150,12 @@ body{
         padding-right: 3rem;
     }
 
-    #top{
-   background-image: none;
-   min-height: 70vh;
-   box-shadow: none;
-}
+    #colored_background{
+        background-image: url('imgs/bg-hero-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+         box-shadow: inset 0 0 0 1000px rgba(25, 173, 218, 0.233);
+    }
 
     #words_and_image{
  flex-direction: row;
@@ -203,7 +206,5 @@ body{
        line-height: 2rem;
     }
 
-    #top{
-       min-height: 100vh;
-     }
+    
 }
