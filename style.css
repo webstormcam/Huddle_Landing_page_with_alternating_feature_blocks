@@ -132,9 +132,21 @@ header{
 }
 
 .cartoon_image{
-    width: 20rem;
+    width: 18.5rem;
 }
 
+.words{
+    text-align: center;
+    
+}
+
+.words h2{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
 
 @media  screen and (min-width: 1024px) {
 
