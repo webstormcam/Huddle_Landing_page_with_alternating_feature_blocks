@@ -124,7 +124,15 @@ header{
     
     background-color: #fff;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
  
+}
+
+.cartoon_image{
+    width: 20rem;
 }
 
 
