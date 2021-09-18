@@ -110,3 +110,62 @@ header{
     width: 85%;
     max-width: 620px;
 }
+
+
+
+@media  screen and (min-width: 1024px) {
+body{
+    background-image: url('imgs/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     box-shadow: inset 0 0 0 1000px rgba(25, 173, 218, 0.233);
+}
+
+    #content{
+        display: flex;
+        flex-direction: column;
+       max-width: 1440px;
+     
+    }
+    .logo{
+        margin-left: 2rem;
+        height: 2rem;
+    }
+
+    .free_top{
+        font-size: 0.8rem;
+        margin-right: 2rem;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    #top{
+   background-image: none;
+   box-shadow: none;
+}
+
+    #words_and_image{
+ flex-direction: row;
+ justify-content: center;
+}
+#words_and_button{
+    text-align: left;
+    align-items: flex-start;
+    
+
+
+}
+#words_and_button h1{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+#words_and_button p{
+    padding: 0rem;
+}
+
+.free_pink{
+    text-align: center;
+}
+}
