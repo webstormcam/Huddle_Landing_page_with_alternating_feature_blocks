@@ -128,13 +128,13 @@ body{
      
     }
     .logo{
-        margin-left: 2rem;
+        margin-left: 5rem;
         height: 2rem;
     }
 
     .free_top{
         font-size: 0.8rem;
-        margin-right: 2rem;
+        margin-right: 5rem;
         padding: 1rem;
         padding-left: 3rem;
         padding-right: 3rem;
@@ -152,10 +152,9 @@ body{
 #words_and_button{
     text-align: left;
     align-items: flex-start;
-    
-
-
-}
+    padding-left: 1.5rem;
+ 
+    }
 #words_and_button h1{
     font-size: 2rem;
     line-height: 3rem;
@@ -165,7 +164,33 @@ body{
     padding: 0rem;
 }
 
+#image{
+    margin-top: 0rem;
+}
+
+.mockup{
+    max-width: 550px;
+}
+
 .free_pink{
     text-align: center;
 }
+}
+
+@media  screen and (min-width: 1440px){
+    .mockup{
+        max-width: 900px;
+    }
+
+    #words_and_button h1{
+        font-size: 2.9rem;
+        line-height: 4rem;
+       
+    }
+
+    #words_and_button p{
+       font-size: 1.3rem;
+       max-width: 650px;
+       line-height: 2rem;
+    }
 }
