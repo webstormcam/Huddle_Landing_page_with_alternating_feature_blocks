@@ -146,6 +146,7 @@ header{
 
 .words{
     text-align: center;
+    max-width: 500px;
     
 }
 
@@ -158,6 +159,39 @@ header{
 }
 
 .words p{
+    color: #808E9A;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 1.5rem;
+}
+
+
+.img_and_words2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.cartoon_image2{
+    width: 18.5rem;
+}
+
+.words2{
+    text-align: center;
+    max-width: 500px;
+    
+}
+
+.words2 h2{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.words2 p{
     color: #808E9A;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -223,6 +257,39 @@ header{
 .free_pink{
     text-align: center;
 }
+
+.img_and_words{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.img_and_words2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.image_description{
+order: 5;
+}
+.words{
+    text-align: left;
+    max-width: 500px;
+    margin-right: 15rem;
+    padding-left: 4rem;
+    
+}
+
+.words p{
+    padding: 0rem;
+}
+
+.cartoon_image{
+    width: 25.5rem;
+}
 }
 
 @media  screen and (min-width: 1440px){
@@ -240,6 +307,15 @@ header{
        font-size: 1.3rem;
        max-width: 650px;
        line-height: 2rem;
+    }
+
+    .img_and_words{
+        width: 1400px;
+        justify-content: center;
+    }
+
+    .cartoon_image{
+        width: 30.5rem;
     }
 
     
