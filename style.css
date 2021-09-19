@@ -269,7 +269,7 @@ header{
 .img_and_words2{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
    
     margin-top: 4rem;
 }
@@ -286,13 +286,27 @@ order: 5;
     
 }
 
+.words2{
+    text-align: left;
+    max-width:450px ;
+}
+
 .words p{
+    padding: 0rem;
+    line-height: 1.8rem;
+}
+
+.words2 p{
     padding: 0rem;
     line-height: 1.8rem;
 }
 
 .cartoon_image{
     width: 25.5rem;
+}
+
+.cartoon_image2{
+    width:  25.5rem;
 }
 
 #middle{
@@ -322,7 +336,17 @@ order: 5;
         
     }
 
+    .img_and_words2{
+        width: 1440px;
+        
+    }
+
     .cartoon_image{
+        width: 30.5rem;
+    }
+
+
+    .cartoon_image2{
         width: 30.5rem;
     }
 
@@ -330,11 +354,26 @@ order: 5;
         font-size: 2rem;
     }
 
+    .words2 h2{
+        font-size: 2rem;
+    }
+
     .words p{
         font-size: 1.3rem;
         line-height: 2rem;
     }
+
+    .words2 p{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
     .words{
+        
+        max-width: 600px;
+        
+    }
+
+    .words2{
         
         max-width: 600px;
         
