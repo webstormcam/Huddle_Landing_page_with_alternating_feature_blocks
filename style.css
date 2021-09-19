@@ -119,6 +119,8 @@ header{
     max-width: 620px;
 }
 
+
+
 #middle{
 
     
@@ -127,8 +129,15 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    
  
+}
+
+.img_and_words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
 }
 
 .cartoon_image{
@@ -146,6 +155,13 @@ header{
     margin-top: 3rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
+}
+
+.words p{
+    color: #808E9A;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 1.5rem;
 }
 
 @media  screen and (min-width: 1024px) {
