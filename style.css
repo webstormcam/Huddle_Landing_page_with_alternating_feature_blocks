@@ -261,7 +261,8 @@ header{
 .img_and_words{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
+    justify-content: space-around;
     margin-top: 4rem;
 }
 
@@ -269,17 +270,19 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+   
     margin-top: 4rem;
 }
 
 .image_description{
 order: 5;
+
 }
 .words{
     text-align: left;
-    max-width: 500px;
-    margin-right: 15rem;
-    padding-left: 4rem;
+    max-width: 450px;
+    
+  
     
 }
 
@@ -289,6 +292,10 @@ order: 5;
 
 .cartoon_image{
     width: 25.5rem;
+}
+
+#middle{
+    align-items: unset;
 }
 }
 
@@ -316,6 +323,19 @@ order: 5;
 
     .cartoon_image{
         width: 30.5rem;
+    }
+
+    .words h2{
+        font-size: 2rem;
+    }
+
+    .words p{
+        font-size: 1.3rem;
+    }
+    .words{
+        
+        max-width: 640px;
+        
     }
 
     
