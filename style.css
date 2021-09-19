@@ -199,6 +199,10 @@ header{
     line-height: 1.5rem;
 }
 
+footer{
+    background-color: #00252E;
+}
+
 @media  screen and (min-width: 1024px) {
 
 
