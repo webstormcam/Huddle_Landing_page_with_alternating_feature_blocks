@@ -459,6 +459,7 @@ max-width: 1024px;
     flex-direction: row;
     justify-content: space-around;
     
+    
 }
 
 .footer-1{
@@ -567,13 +568,22 @@ max-width: 1024px;
         
     }
 
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+
+   
+
     #middle{
         align-items: center;
     }
 
-    footer{
-        align-items: center;
+    #contact_info{
+        width:  1440px;
     }
+
+
 
     
 
