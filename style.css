@@ -211,6 +211,7 @@ width: 10rem;
 #contact_info{
     display: flex;
     flex-direction: column;
+    padding-left: 1rem;
    
 }
 
@@ -219,21 +220,46 @@ width: 10rem;
     display: flex;
     flex-direction: row;
     font-size: 0.8rem;
-    width: 75%;
+    width: 85%;
+    line-height: 1.2rem;
     
 }
 .pin{
-    height: 1.2rem;
+    height: 1.1rem;
+    margin-right: 1rem;
 }
 
 .phone-icon{
-    height: 1.2rem;
+    height: 1.1rem;
+    margin-right: 1rem;
 }
 
 .phone{
     color: #fff;
     display: flex;
     flex-direction: row;
+    font-size: 0.8rem;
+}
+
+.email{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+}
+
+.email-icon{
+    height: 1.1rem;
+    margin-right: 1rem;
+}
+
+#info{
+    color: white;
+    font-size: 0.9rem;
+}
+
+#info p{
+    margin-bottom: 2rem;
 }
 
 @media  screen and (min-width: 1024px) {
