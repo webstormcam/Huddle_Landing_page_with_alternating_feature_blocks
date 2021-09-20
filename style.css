@@ -211,7 +211,7 @@ width: 10rem;
 #contact_info{
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
    
 }
 
@@ -222,11 +222,13 @@ width: 10rem;
     font-size: 0.8rem;
     width: 85%;
     line-height: 1.2rem;
+    margin-bottom: 2rem;
     
 }
 .pin{
     height: 1.1rem;
     margin-right: 1rem;
+   
 }
 
 .phone-icon{
@@ -239,6 +241,7 @@ width: 10rem;
     display: flex;
     flex-direction: row;
     font-size: 0.8rem;
+    margin-bottom: 2rem;
 }
 
 .email{
@@ -246,6 +249,7 @@ width: 10rem;
     display: flex;
     flex-direction: row;
     font-size: 0.8rem;
+    margin-bottom: 2rem;
 }
 
 .email-icon{
@@ -256,9 +260,30 @@ width: 10rem;
 #info{
     color: white;
     font-size: 0.9rem;
+    margin-top: 4rem;
 }
 
 #info p{
+    margin-bottom: 2rem;
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.social-icon{
+    width: 1.4rem;
+    filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(29deg) brightness(115%) contrast(100%);
+    margin-left: 0.5rem ;
+    margin-right: 0.5rem;
+}
+
+#copy-right{
+    color: white;
+    text-align: center;
+    margin-top:2rem ;
     margin-bottom: 2rem;
 }
 
