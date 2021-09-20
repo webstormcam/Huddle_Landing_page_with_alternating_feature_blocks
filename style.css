@@ -201,6 +201,39 @@ header{
 
 footer{
     background-color: #00252E;
+    width: 100%;
+}
+
+.white-logo{
+width: 10rem;
+}
+
+#contact_info{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.location{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    width: 75%;
+    
+}
+.pin{
+    height: 1.2rem;
+}
+
+.phone-icon{
+    height: 1.2rem;
+}
+
+.phone{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
 }
 
 @media  screen and (min-width: 1024px) {
