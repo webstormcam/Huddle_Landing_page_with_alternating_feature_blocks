@@ -50,6 +50,11 @@ header{
 
 }
 
+.free_top:hover{
+    background-color: #FF52C1;
+    color: #fff;
+}
+
 .free_top{
     font-size: 0.8rem;
     padding: 0.5rem;
@@ -106,6 +111,11 @@ header{
     border-radius: 2rem;
     font-size: 0.9rem;
     font-weight: bold;
+}
+
+.free_pink:hover{
+    background-color: cornflowerblue;
+    color: white;
 }
 
 #image{
@@ -300,6 +310,11 @@ padding-left: 2rem;
     padding-left: 2rem;
 }
 
+#info p:hover{
+color: #FF52C1;
+cursor: pointer;
+}
+
 #socials{
     display: flex;
     justify-content: center;
@@ -311,6 +326,11 @@ padding-left: 2rem;
     filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(29deg) brightness(115%) contrast(100%);
     margin-left: 0.5rem ;
     margin-right: 0.5rem;
+}
+
+.social-icon:hover{
+    filter: invert(50%) sepia(55%) saturate(2294%) hue-rotate(292deg) brightness(99%) contrast(104%);
+    cursor: pointer;
 }
 
 #copy-right{
