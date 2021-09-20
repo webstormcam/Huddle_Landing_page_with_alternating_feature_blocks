@@ -320,6 +320,10 @@ padding-left: 2rem;
     margin-bottom: 2rem;
 }
 
+.footer-1{
+    max-width: 500px;
+ }
+
 @media  screen and (min-width: 1024px) {
 
 
@@ -445,6 +449,26 @@ max-width: 1024px;
     font-size: 2rem;
    
 }
+
+#ready .free_pink{
+    font-size: 1.2rem;
+}
+
+#small-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-1{
+   max-width: 600px;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 
 
