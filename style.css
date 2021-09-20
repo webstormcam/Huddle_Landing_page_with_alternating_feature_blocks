@@ -457,15 +457,42 @@ max-width: 1024px;
 #small-items{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    
 }
 
 .footer-1{
-   max-width: 600px;
+   max-width: 400px;
 }
 
 #info{
     display: flex;
     flex-direction: row;
+    margin-right: 8rem;
+   
+    
+}
+
+.icon-copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-logo{
+  padding-left: 0rem;
+    }
+.location{
+    padding-left: 0rem;
+}
+
+.phone{
+    padding-left: 0rem;
+}
+
+.email{
+    padding-left: 0rem;
 }
 
 
@@ -543,6 +570,14 @@ max-width: 1024px;
     #middle{
         align-items: center;
     }
+
+    footer{
+        align-items: center;
+    }
+
+    
+
+
 
     
 }
