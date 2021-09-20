@@ -490,6 +490,7 @@ max-width: 1024px;
     display: flex;
     flex-direction: row;
     margin-right: 8rem;
+  
    
     
 }
@@ -499,21 +500,22 @@ max-width: 1024px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 2rem;
 }
 
 .white-logo{
-  padding-left: 0rem;
+  padding-left: 2rem;
     }
 .location{
-    padding-left: 0rem;
+    padding-left: 2rem;
 }
 
 .phone{
-    padding-left: 0rem;
+    padding-left: 2rem;
 }
 
 .email{
-    padding-left: 0rem;
+    padding-left: 2rem;
 }
 
 
@@ -602,6 +604,27 @@ max-width: 1024px;
     #contact_info{
         width:  1440px;
     }
+
+
+
+    .white-logo{
+        padding-left: 0rem;
+          }
+      .location{
+          padding-left: 0rem;
+      }
+      
+      .phone{
+          padding-left: 0rem;
+      }
+      
+      .email{
+          padding-left: 0rem;
+      }
+
+
+
+   
 
 
 
